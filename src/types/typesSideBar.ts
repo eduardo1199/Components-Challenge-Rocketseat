@@ -5,5 +5,5 @@ export interface GenreResponseProps {
 }
 export interface SideBarProps {
   selectedGenreId: number;
-  setSelectedGenreId: React.Dispatch<React.SetStateAction<number>>;
+  setSelectedGenreId: (id: number) => void;
 }
